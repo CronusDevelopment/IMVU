@@ -1,0 +1,48 @@
+  #video_panel_body,
+  #video_panel,
+  #imvuContent,
+  #leftColumn {
+    width: 1013px !important;
+  }
+
+  #video_panel_header,
+  #rightColumn {
+    display: none;
+  }
+
+  .box {
+    overflow: auto;
+    position: absolute;
+    text-align: center;
+  }
+
+  #layout-container {
+    font-size: 11px;
+    font-family: "Century Gothic", sans-serif;
+    width: 1013px;
+    height: 1300px;
+    color: #fff;
+  }
+
+  area,
+  map {
+    cursor: pointer;
+    outline: 0;
+  }
+
+  #layoutimg {
+    position: absolute;
+    width: 1013px;
+    height: 1300px;
+  }
+
+  #content_container {
+    display: none !important;
+  }
+
+  #frame1 {
+    margin-left: 292px;
+    margin-top: -532px;
+   width: 403px;
+    height: 292px;
+  }
