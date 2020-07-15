@@ -15,6 +15,15 @@
     position: absolute;
     text-align: center;
   }
+  
+  table.imvuolstatus {
+	color: white;
+	text-align: center;
+	margin-left: 292px;
+    margin-top: -532px;
+	width: 403px;
+    height: 292px;
+}
 
   #layout-container {
     font-size: 11px;
@@ -43,6 +52,6 @@
   #frame1 {
     margin-left: 292px;
     margin-top: -532px;
-   width: 403px;
+	width: 403px;
     height: 292px;
   }
