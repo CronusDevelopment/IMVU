@@ -1,0 +1,65 @@
+.ShopButtons
+{
+  color: gold;
+  background-color: black;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.Male
+{
+     color: Gold;
+     background-color: grey;
+     padding: 15px 32px;
+     padding: 10px 12px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 15px;
+     margin: 4px 2px;
+     cursor: pointer;
+}
+.Female
+{
+     color: Gold;
+     background-color: grey;
+     padding: 15px 32px;
+     padding: 10px 12px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 15px;
+     margin: 4px 2px;
+     cursor: pointer;
+}
+.Rooms
+{
+     color: Gold;
+     background-color: grey;
+     padding: 15px 32px;
+     padding: 10px 12px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 15px;
+     margin: 4px 2px;
+     cursor: pointer;
+}
+.Other
+{
+     color: Gold;
+     background-color: grey;
+     padding: 15px 32px;
+     padding: 10px 12px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 15px;
+     margin: 4px 2px;
+     cursor: pointer;
+}
