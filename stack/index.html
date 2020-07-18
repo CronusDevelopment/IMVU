@@ -1,0 +1,148 @@
+<link rel="stylesheet" href="https://cronusdevelopment.github.io/IMVU/style.css" />
+<link rel="stylesheet" href="https://cronusdevelopment.github.io/IMVU/shop.css" />
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cronusdevelopment.github.io/IMVU/frame.js"></script>
+<style>
+  table.imvuolstatuss {
+	color: white;
+	text-align: center;
+        font-size: 25px;
+	margin-left: 424px;
+    margin-top: -799px;
+}</style>
+<div id="content_container">
+  <div id="home">
+    <br /><br />
+    <p style="color: white;">HERE CONTENT FOR home</p>
+  </div>
+  <div id="about">
+    <br /><br />
+    <p style="color: white;">HERE CONTENT FOR about</p>
+  </div>
+  <div id="shop">
+    <br /><br />
+    <p style="color: white;">
+	<button id = "BtMale" class="ShopButtons">Male</button>
+<button id = "BtFemale" class="ShopButtons">Female</button>
+<button id = "BtFurn" class="ShopButtons">Room/Furn</button>
+<button id = "BtOther" class="ShopButtons">Other</button>
+<button id = "BtAll" class="ShopButtons" onclick=window.open("https://www.imvu.com/shop/web_search.php?manufacturers_id=196067881")>Whole Shop</button>
+<form id="M" hidden>
+   <br>
+   <select name="categories_id" onChange="window.open('http://www.imvu.com/shop/web_search.php?cat='+this.form.categories_id.value+'&manufacturers_id=196067881&sort=id&sortorder=desc','','scrollbars=yes, resizable=yes, status=1,toolbar=1, location=1, menubar=1');">
+      <option value="" selected>Choose Something</option>
+      <option value="41">Clothing for Male</option>
+      <option value="71">&nbsp;Male Accessories</option>
+      <option value="70">&nbsp;Male Bottoms</option>
+      <option value="316">&nbsp;Male Bundles</option>
+      <option value="92">&nbsp;Male Eyebrows</option>
+      <option value="91">&nbsp;Male Eyes</option>
+      <option value="98">&nbsp;Male Gloves</option>
+      <option value="67">&nbsp;Male Hairstyles</option>
+      <option value="296">&nbsp;Male Heads</option>
+      <option value="102">&nbsp;Male Shoes</option>
+      <option value="68">&nbsp;Male Skintones</option>
+      <option value="69">&nbsp;Male Tops</option>
+      <option value="3088-3091">&nbsp;Male Outfits </option>
+   </select>
+</form>
+<form id="F" hidden>
+ <br>
+   <select name="categories_id" onChange="window.open('http://www.imvu.com/shop/web_search.php?cat='+this.form.categories_id.value+'&manufacturers_id=196067881&sort=id&sortorder=desc','','scrollbars=yes, resizable=yes, status=1,toolbar=1, location=1, menubar=1');">
+      <option value="" selected>Choose Something</option>
+      <option value="40">Clothing for Female</option>
+      <option value="153">&nbsp;Female Accessories</option>
+      <option value="78">&nbsp;Female Bottoms</option>
+      <option value="324">&nbsp;Female Bundles</option>
+      <option value="90">&nbsp;Female Eyebrows</option>
+      <option value="89">&nbsp;Female Eyes</option>
+      <option value="97">&nbsp;Female Gloves</option>
+      <option value="75">&nbsp;Female Hairstyles</option>
+      <option value="295">&nbsp;Female Heads</option>
+      <option value="101">&nbsp;Female Shoes</option>
+      <option value="76">&nbsp;Female Skintones</option>
+      <option value="128">&nbsp;Female Tops</option>
+      <option value="3088-3090">&nbsp;Female Outfits</option>
+   </select>
+</form>
+<form id="Rooms" hidden>
+<br>
+   <select name="categories_id" onChange="window.open('http://www.imvu.com/shop/web_search.php?cat='+this.form.categories_id.value+'&manufacturers_id=196067881&sort=id&sortorder=desc','','scrollbars=yes, resizable=yes, status=1,toolbar=1, location=1, menubar=1');">
+      <option value="" selected>Choose Something</option>
+      <option value="107">Rooms & Furniture</option>
+      <option value="1027">&nbsp;Furniture</option>
+      <option value="366">&nbsp;Rooms</option>
+      <option value="1279">&nbsp;Furniture Bundles</option>
+      <option value="2386">&nbsp;Furnished Rooms</option>
+      <option value="107-1027-1552">&nbsp;Posing Spots</option>
+      <option value="107-1027-1905">&nbsp;Animated Pose Spots</option>
+   </select>
+</form>
+<form id="Other" hidden>
+<br>
+   <select name="categories_id" onChange="window.open('http://www.imvu.com/shop/web_search.php?cat='+this.form.categories_id.value+'&manufacturers_id=196067881&sort=id&sortorder=desc','','scrollbars=yes, resizable=yes, status=1,toolbar=1, location=1, menubar=1');">
+      <option value="" selected>Choose Something</option>
+      <option value="108">Avatars</option>
+      <option value="425">Pets</option>
+      <option value="495">Stickers</option>
+   </select>
+</form>
+</p>
+  </div>
+  <div id="shout">
+    <br /><br />
+    <p style="color: white;">HERE CONTENT FOR shout</p>
+  </div>
+  <div id="honor">
+    <br /><br />
+    <p style="color: white;">HERE CONTENT FOR honor</p>
+  </div>
+</div>
+<div id="layout-container">
+  <img
+    src="https://i.imgur.com/vc0zoBl.png"
+    width="1013"
+    height="1300"
+    border="0"
+    usemap="#map"
+  />
+  <map name="map">
+    <area
+      shape="rect"
+      coords="273,740,356,768"
+      onclick="changeframe('home','frame1')"
+    />
+    <area
+      shape="rect"
+      coords="360,740,445,768"
+      onclick="changeframe('about','frame1')"
+    />
+    <area
+      shape="rect"
+      coords="450,740,535,768"
+      onclick="changeframe('shop','frame1')"
+    />
+    <area
+      shape="rect"
+      coords="539,740,624,768"
+      onclick="changeframe('shout','frame1')"
+    />
+    <area
+      shape="rect"
+      coords="630,740,715,768"
+      onclick="changeframe('honor','frame1')"
+    />
+  </map>
+  <div id="frame1" class="box"></div>
+  <script>
+    changeframe("home", "frame1");
+  </script>
+</div>
+<div id="OLStatus">
+  <table class="imvuolstatuss">
+     <tr>
+        <td align='center'>Status - <img src="https://gaf210.gafcodes.com/get_online_status?u=196067881&offline=https%3A%2F%2Fuserimages01.imvu.com%2Fproductdata%2Fstickers_af13a170f917065f15d41a7d6a484f37.gif&online=https%3A%2F%2Favatars.imvu.com%2Fcatalog%2Fweb_images%2Fmy_page%2Fonline_under_image.gif&unknown=https%3A%2F%2Favatars.imvu.com%2Fcatalog%2Fweb_images%2Fmy_page%2Fspace.gif" alt=""></td>
+     </tr>
+  </table>
+</div>
+<script src="https://cronusdevelopment.github.io/IMVU/shop.js"></script>
