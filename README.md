@@ -1,4 +1,4 @@
-# IMVU
-Working Link = https://cronusdevelopment.github.io/working/
-#
-Not working Link = https://cronusdevelopment.github.io/notworking/
+#Working Link
+[working]: https://cronusdevelopment.github.io/working/
+#Not Working Link
+ [notworking]: https://cronusdevelopment.github.io/notworking/
