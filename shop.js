@@ -76,4 +76,4 @@ $('#BtOther').on('click', function(e){
              else
             $("#BtFurn").prop("disabled",false);
 });
-})
+});
