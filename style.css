@@ -1,4 +1,7 @@
-  #video_panel_body,
+.html {
+background-color: black;
+}
+#video_panel_body,
   #video_panel,
   #imvuContent,
   #leftColumn {
