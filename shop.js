@@ -1,4 +1,3 @@
-$(document).ready(function() {
 $('#BtMale').on('click', function(e){
 
     $("#M").toggle();
