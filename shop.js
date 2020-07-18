@@ -1,4 +1,4 @@
-$('#BtMale').on('click', function(e){
+$(function(){ $('#BtMale').on('click', function(e){
 
     $("#M").toggle();
     $(this).toggleClass('Male');
@@ -75,5 +75,4 @@ $('#BtOther').on('click', function(e){
             $("#BtFurn").prop("disabled",true);
              else
             $("#BtFurn").prop("disabled",false);
-   
-});
+})
