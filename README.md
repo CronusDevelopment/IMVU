@@ -15,6 +15,8 @@ All buttons seem to work on this one.
 # Working Page JAVASCRIPT
 Click the third button to see the Shop buttons.
 
+For some reason the buttons disappear after they are clicked on this one.
+
 The "Whole Shop" Button works, but the others do not.
 
 <https://cronusdevelopment.github.io/IMVU/javascript/working/>
